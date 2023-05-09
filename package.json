@@ -7,9 +7,11 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "wundergraph": "wunderctl up"
   },
   "dependencies": {
+    "@wundergraph/sdk": "^0.153.0",
     "astro": "^2.4.1"
   }
 }
